@@ -1,0 +1,15 @@
+---
+name_project: archlinux-vagrant
+environment: dev
+
+vagrant:
+  limit: ''
+  verbose: 'vvvv'
+  sudo: true
+
+servers:
+  - name: 1.web.archlinux-vagrant.vm
+    ip: 10.10.10.20
+    box: archlinux/archlinux
+    hostname: 1-web-archlinux-vagrant.vm
+    ram: 1024
